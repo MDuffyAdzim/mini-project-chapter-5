@@ -1,6 +1,9 @@
 # Pembuatan struktur data nama karakter
 
-karakter = ["ZeldaVivos", "PangeranPrice", "Mekaliniop"]
+# ### = artinya --> kode eksperimen yang sudah di gunakan, tapi harus dinonaktifkan karena kira harus fokus dengan arena utama 
+# final version yang dipakai orang-orang. 
+
+# karakter = ["ZeldaVivos", "PangeranPrice", "Mekaliniop"] ### 1
 
 # Pembuatan struktur data umur karakter
 
@@ -20,44 +23,44 @@ seperti apa ya.
 
 """
 
-level_karakter = [11, 3, 27]
+# level_karakter = [11, 3, 27] ### 1
 
 # Akses khusus
 
-karakter_khusus = ["ZeldaVivos"]
+# karakter_khusus = ["ZeldaVivos"] ### 1
 
 # Daftar item
 
-item = ["Luciana", "HunterSword", "AxeGigantorus"]
+# item = ["Luciana", "HunterSword", "AxeGigantorus"] ### 1
 
 # Pintu masuk Arena XhampionWarf
 
-for karak in karakter:
-    if karak in karakter_khusus:
-        print(f"Silahkan Masuk {karak}. Persiapkan mental kamu 😈")
+# for karak in karakter: ### 1
+#     if karak in karakter_khusus: ### 1
+#        print(f"Silahkan Masuk {karak}. Persiapkan mental kamu 😈") ### 1
 
 # Gpt karena saya bingung bagaimana mekanisme game yang kamu maksud seperti apa dan arah-nya kemana. Saya jadi butuh konsep
 # nested dictionary untuk menyatukan nama karakter dan level serta item yang dia punya untuk masuk server yang lebih elit gitu.
 # Saya gak kepikiran bagaimana memanfaatkan bab 5 untuk konsep game saya sendiri. Maka dari itu saya membutuhkan konsep 
 # di luar bab 5 untuk memaksimalkan game saya.
 
-player_information = {
-                     "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
-                     "player_2" : {"name" : "PangeranPrice", "Level" : 7, "Item" : ["Voidbringer", "Vanguard's, Bulwark", "Celestial Aegis"]},
-                     "player_3" : {"name" : "Mekaliniop", "Level" : 37, "Item" : ["Chronos Heart", "Rune of Undying", "Elixir of the Phoenix"]}
-                     }
+ #player_information = { ### 1
+#                     "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
+#                     "player_2" : {"name" : "PangeranPrice", "Level" : 7, "Item" : ["Voidbringer", "Vanguard's, Bulwark", "Celestial Aegis"]},
+#                     "player_3" : {"name" : "Mekaliniop", "Level" : 37, "Item" : ["Chronos Heart", "Rune of Undying", "Elixir of the Phoenix"]}
+#                     }
 
-strong_items = ["Huntersowrd", "Voidbringer", "Elixir of the Phoenix", "Stardust Nectar", "Dreadnought Plate"]
+# strong_items = ["Huntersowrd", "Voidbringer", "Elixir of the Phoenix", "Stardust Nectar", "Dreadnought Plate"] ### 1
 
 # The Eliter Apex Coliseum # The Greatest Arena
 
-for player, information in player_information.items():
-    match = set(strong_items) & set(information["Item"])
-    if match:
-        print(f"Berhasil: {information['name']} memiliki skill {match}!")
-        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Eliter Apex Coliseum.")
-    else:
-        print("I'm Sorry Buddy. You To Young.")
+# for player, information in player_information.items(): ### 1
+#    match = set(strong_items) & set(information["Item"]) ### 1
+#    if match: ### 1
+#        print(f"Berhasil: {information['name']} memiliki skill {match}!") ### 1
+#        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Eliter Apex Coliseum.") ### 1
+#    else: ### 1
+#        print("I'm Sorry Buddy. You To Young.") ### 1
 
 # Gpt sebelum saya lanjut saya mau curhat dulu. Berjam-jam saya ingin membuat sistem yang bisa menampilkan bahwa player cocok 
 # dan diperbolehkan masuk ke server elite dengan bantuan AI Model Google. Dan saya dibantu atas materi-materi pendukung yang 
@@ -82,28 +85,28 @@ for player, information in player_information.items():
 
 print("\n")
 
-player_information = {
-                     "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
-                     "player_2" : {"name" : "PangeranPrice", "Level" : 7, "Item" : ["Voidbringer", "Vanguard's, Bulwark", "Celestial Aegis"]},
-                     "player_3" : {"name" : "Mekaliniop", "Level" : 37, "Item" : ["Chronos Heart", "Rune of Undying", "Elixir of the Phoenix"]},
-                     "player_4" : {"name" : "ZenithBlitz" ,"Level" : 47, "Item" : ["Nebula Slasher", "Bhasma Wyrm", "Vajra Shard"]},
-                     "player_5" : {"name" : "WildTitan", "Level" : 33, "Item" : ["Titan's Carapace", "Akasha Crown", "Nirvana Aegis"]},
-                     "player_6" : {"name" : "KriegLord", "Level" : 10, "Item" : ["Vortex Greaves", "Kala Ring", "Volt-Igniter"]},
-                     "player_7" : {"name" : "NovaStellar" ,"Level" : 19, "Item" : ["Void Key", "Nanite Overcoat", "Overclock Core"]},
-                     "player_8" : {"name" : "AstralEcho", "Level" : 7, "Item" : ["Tears of the Goddess", "Rustburn Blade", "Astral Tether"]}
-                     }
+# player_information = { ### 2
+#                      "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
+#                     "player_2" : {"name" : "PangeranPrice", "Level" : 7, "Item" : ["Voidbringer", "Vanguard's, Bulwark", "Celestial Aegis"]},
+#                     "player_3" : {"name" : "Mekaliniop", "Level" : 37, "Item" : ["Chronos Heart", "Rune of Undying", "Elixir of the Phoenix"]},
+#                     "player_4" : {"name" : "ZenithBlitz" ,"Level" : 47, "Item" : ["Nebula Slasher", "Bhasma Wyrm", "Vajra Shard"]},
+#                     "player_5" : {"name" : "WildTitan", "Level" : 33, "Item" : ["Titan's Carapace", "Akasha Crown", "Nirvana Aegis"]},
+#                     "player_6" : {"name" : "KriegLord", "Level" : 10, "Item" : ["Vortex Greaves", "Kala Ring", "Volt-Igniter"]},
+#                     "player_7" : {"name" : "NovaStellar" ,"Level" : 19, "Item" : ["Void Key", "Nanite Overcoat", "Overclock Core"]},
+#                     "player_8" : {"name" : "AstralEcho", "Level" : 7, "Item" : ["Tears of the Goddess", "Rustburn Blade", "Astral Tether"]}
+#                     }
 
-player_played_for_3_yearz = ["AstralEcho"]
+# player_played_for_3_yearz = ["AstralEcho"] ### 2
 
 # The Arena
 
-rare_item = ["Huntersowrd", "Voidbringer", "Chronos Heart", "Nebula Slasher", "Titan's Carapace", "Vortex Greaves", "Void Key", "Tears of the Goddess", "Phantom Edge",
-             "Whisperwind Bow", "Ruinbringer", "Nightstalker Vestment", "Ashen Cuirass"]
+# rare_item = ["Huntersowrd", "Voidbringer", "Chronos Heart", "Nebula Slasher", "Titan's Carapace", "Vortex Greaves", "Void Key", "Tears of the Goddess", "Phantom Edge",
+#              "Whisperwind Bow", "Ruinbringer", "Nightstalker Vestment", "Ashen Cuirass"] ### 2
 
-for player, information in player_information.items():
-    match = set(rare_item) & set(information["Item"])
-    match_legend_player = set(player_played_for_3_yearz) & set([information["name"]])
-    if information["Level"] >= 35 and information["Level"] <= 50 and match: # Gpt disini saya tambahkan kondisi spesifik 
+# for player, information in player_information.items(): ### 2
+#    match = set(rare_item) & set(information["Item"]) ### 2
+#    match_legend_player = set(player_played_for_3_yearz) & set([information["name"]]) ### 2
+#    if information["Level"] >= 35 and information["Level"] <= 50 and match: # Gpt disini saya tambahkan kondisi spesifik ### 2 
                                                                            # agar program mengeksekusi dengan benar, dimana
                                     # saya menambahkan batasan level yang spesifik. inti-nya programm jadi tau batasan program apa
                                     # yang harus dieksekusi berdasarkan batasan level-nya. Sistem ini saya buat karena saya bingung
@@ -115,9 +118,9 @@ for player, information in player_information.items():
                                     # merupakan bagian dari < 20. Dan karena kondisi-nya "True" juga maka-nya dieksekusi. Tapi point
                                     # nya adalah level 7 merupakan bagian dari < 20. bukan bagian < 10. Maka dari itu saya menambah
                                     # kan kondisi batasan level agar pengambilan keputusan sesuai dengan apa yang saya inginkan.
-        print(f"Berhasil: {information['name']} memiliki skill {match} dengan Level : {information['Level']}!")
-        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Complex Iron Amphitheater.")
-    elif information["Level"] >= 20 and information["Level"] < 35 and match: # Ini sudah kita rubah menjadi and, agar player tidak match dan stuck 
+        # print(f"Berhasil: {information['name']} memiliki skill {match} dengan Level : {information['Level']}!") ### 2
+        # print(f"-------{information['name']} dipersilahkan masuk ke dunia The Complex Iron Amphitheater.") ### 2
+    # elif information["Level"] >= 20 and information["Level"] < 35 and match: # Ini sudah kita rubah menjadi and, agar player tidak match dan stuck ### 2 
                                                # di The Abyssal Ring. Dan saya berterimakasih kepada kamu gpt serta mengakui 
                                                # bahwa setiap player yang memiliki kondisi salah satu benar, akan dieksekusi or ini. Sedangkan
                                                # kondisi di bawah-bawah ini membutuhkan kondisi yang sempurna / 2 kondisi True (Karena and),
@@ -139,25 +142,25 @@ for player, information in player_information.items():
                                                # pengambilan keputusan dengan 2 kondisi true, saya belajar bahwa if harus
                                                # ditaro di akhir atau kondisi khusus agar tidak menghalangi program mengeksekusi
                                                # kondisi yang sesuai dengan requirement / dieksekusi secara terstruktur. 
-        print(f"Berhasil: {information['name']} memiliki skill {match} dengan Level : {information['Level']}!")
-        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Abyssal Ring.")
-    elif information["Level"] == 10: 
-            print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!")
-            print(f"-------{information['name']} dipersilahkan masuk ke dunia The Omega Zone.")
-    elif information["Level"] < 20 and information["Level"] > 10 and match: 
-            print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!")
-            print(f"-------{information['name']} dipersilahkan masuk ke dunia The Vortex Dome.")
-    elif information["Level"] < 10 or match_legend_player and match: # In sudah. or sudah. Dia jadi satu
-            print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!")
-            print(f"-------{information['name']} dipersilahkan masuk ke dunia The Valhalla’s Crucible.")
-    elif "ItachiSay" not in information["name"]: # Kita sudah selsai menggunakan not in pada kode kita.
-            print("Player bisa bermain game dengan tenang. ItachiSay tidak ada.") # "ItachiSay" adalah seorang player yang jago
+        # print(f"Berhasil: {information['name']} memiliki skill {match} dengan Level : {information['Level']}!")
+        # print(f"-------{information['name']} dipersilahkan masuk ke dunia The Abyssal Ring.")
+    # elif information["Level"] == 10: 
+    #        print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!") ### 2
+    #        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Omega Zone.") ### 2
+    # elif information["Level"] < 20 and information["Level"] > 10 and match: ### 2 
+    #        print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!") ### 2
+    #        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Vortex Dome.") ### 2
+    # elif information["Level"] < 10 or match_legend_player and match: # In sudah. or sudah. Dia jadi satu ### 2
+    #        print(f"Berhasil: {information['name']} dengan Level : {information['Level']}!") ### 2
+    #        print(f"-------{information['name']} dipersilahkan masuk ke dunia The Valhalla’s Crucible.") ### 2
+    # elif "ItachiSay" not in information["name"]: # Kita sudah selsai menggunakan not in pada kode kita. ### 2
+    #        print("Player bisa bermain game dengan tenang. ItachiSay tidak ada.") # "ItachiSay" adalah seorang player yang jago
                                                                                   #  banget dalam game itu. Kamu harus berhati
                                                                                   # -hati sama dia.
             #print(f"Berhasil: {information['name']} dengan level : {information['Level']}!")
             #print(f"-------{information['name']} dipersilahkan masuk ke dunia The Valhalla’s Crucible.")
-    else:
-        print("No")
+    # else:
+    #    print("No")
 
         # Gpt saya ingin nanya, ketika kode-nya di running kok "ItachiSay" malah muncul di paling atas terminal sih ?
         # Bukan-nya dia harus-nya muncul di paling bawah ya ? Karena struktur elif-nya saya taro paling bawah. Tapi kenapa ya
@@ -178,11 +181,12 @@ for player, information in player_information.items():
 ## ide/kritis terhadap apa yang saya kerjakan. Btw saya suka kritis dengan apa yang saya kerjakan, saya suka mengejarkan sesuatu 
 ## dengan benar dan sebagaimana mesti-nya.  
 
+print("\n")
 
 # Ini adalah kode yang sudah di revisi.
 
 player_information = {
-                     "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
+                     "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersword", "Luciana", "Bomber"]},
                      "player_2" : {"name" : "PangeranPrice", "Level" : 7, "Item" : ["Voidbringer", "Vanguard's, Bulwark", "Celestial Aegis"]},
                      "player_3" : {"name" : "Mekaliniop", "Level" : 37, "Item" : ["Chronos Heart", "Rune of Undying", "Elixir of the Phoenix"]},
                      "player_4" : {"name" : "ZenithBlitz" ,"Level" : 47, "Item" : ["Nebula Slasher", "Bhasma Wyrm", "Vajra Shard"]},
@@ -201,7 +205,7 @@ player_played_for_3_yearz = ["AstralEcho"]
 
 # The Arena
 
-rare_item = ["Huntersowrd", "Voidbringer", "Chronos Heart", "Nebula Slasher", "Titan's Carapace", "Vortex Greaves", "Void Key", 
+rare_item = ["Huntersword", "Voidbringer", "Chronos Heart", "Nebula Slasher", "Titan's Carapace", "Vortex Greaves", "Void Key", 
              "Tears of the Goddess", "Phantom Edge", "Whisperwind Bow", "Ruinbringer", "Nightstalker Vestment", "Ashen Cuirass", 
              "Calamity Edge", "Nightfall Pierce", "Souldrinker", "Voidfury Spire"]
 
