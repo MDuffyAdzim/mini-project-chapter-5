@@ -83,7 +83,7 @@ seperti apa ya.
 # Dan saya akan coba menerapkan konsep bab 5 seperlu-nya. Semoga banyak yang perlu.
 
 
-print("\n")
+#print("\n")
 
 # player_information = { ### 2
 #                      "player_1" : {"name" : "ZeldaVivos" ,"Level" : 11, "Item" : ["Huntersowrd", "Luciana", "Bomber"]},
@@ -181,7 +181,7 @@ print("\n")
 ## ide/kritis terhadap apa yang saya kerjakan. Btw saya suka kritis dengan apa yang saya kerjakan, saya suka mengejarkan sesuatu 
 ## dengan benar dan sebagaimana mesti-nya.  
 
-print("\n")
+#print("\n")
 
 # Ini adalah kode yang sudah di revisi.
 
